@@ -1,0 +1,147 @@
+body {
+    background-color: #313647;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#text{
+    color:white;
+}
+/* NAVIGATION */
+#navigation {
+    text-align: right;
+    font-size: 26px;
+   
+    padding: 20px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#navigation a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+#navigation a:hover {
+    background-color: #A5B4D4;
+}
+
+/* INTRO SECTION */
+.introduction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 40px;
+}
+
+.about {
+    width: 60%;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+#pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #6D6A5E;
+}
+
+/* SKILLS */
+.skills {
+    width: 100%;
+    padding: 20px 40px;
+}
+
+#skill_list {
+    display: flex;
+     gap: 30px;
+    list-style: none;
+}
+
+#skill_list li {
+    border: 2px solid #6D6A5E;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+#skill_list li:hover {
+    transform: scale(1.05);
+}
+
+/* PROJECTS */
+#projects {
+    display: flex;
+    gap:30px;
+    list-style: none;
+    padding: 30px 40px;
+    width: 100%;
+}
+
+#projects li {
+    border: 2px solid #6D6A5E;
+    background-color: white;
+    padding: 25px;
+    height: 160px;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+#projects li:hover {
+    transform: scale(1.05);
+}
+
+
+
+/* FORM */
+#form {
+    font-size: 20px;
+    border: 2px solid #6D6A5E;
+    width: 350px;
+    padding: 20px;
+    border-radius: 12px;
+    height: auto;
+    background-color: #FDFBF5;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+#button {
+    border-radius: 6px;
+    padding: 8px 15px;
+    background-color: #C4B68A;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+#button:hover {
+    background-color: #EDE8D0;
+}
+
+.user {
+    padding: 15px 0;
+}
+
+/* FOOTER */
+.footer {
+    padding: 40px;
+    font-size: 16px;
+    text-align: center;
+    color: #48463F;
+    opacity: 0.8;
+}
